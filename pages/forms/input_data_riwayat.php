@@ -351,7 +351,7 @@
               <ul class="treeview-menu">
                  <li><a href="../tables/view_data_pegawai2.php"><i class="fa fa-circle-o"></i> Lihat Data  </a></li>
                 <li><a href="../forms/input_absen.php"><i class="fa fa-circle-o"></i>Absensi</a></li>
-                <li><a href="../forms/gaji.php"><i class="fa fa-circle-o"></i>Gaji Pegawai</a></li>
+                
                 <li class="active"><a href=""><i class="fa fa-circle-o"></i>Riwayat Kunjungan</a></li>
                 <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Riwayat Pelatihan</a></li>
               </ul>
