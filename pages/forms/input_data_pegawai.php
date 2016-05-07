@@ -397,7 +397,7 @@
                     </div>
                     
                      <div class="form-group">
-                      <label>Nama :</label>
+                      <label>Nama Pegawai :</label>
                       <input type="text" class="form-control" placeholder="Enter ..."name="nama">
                     </div>
                     
