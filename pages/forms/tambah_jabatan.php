@@ -342,7 +342,7 @@
                 
               </ul>
             </li>
-            <li class="treeview active">
+            <li>
               <a href="#">
                 <i class="fa fa-files-o"></i>
                 <span>Update Data Pegawai</span>
@@ -351,8 +351,9 @@
               <ul class="treeview-menu">
                  <li><a href="../tables/view_data_pegawai2.php"><i class="fa fa-circle-o"></i> Lihat Data  </a></li>
                 <li><a href="../forms/input_absen.php"><i class="fa fa-circle-o"></i>Absensi</a></li>
-                <li class="active"><a href=""><i class="fa fa-circle-o"></i>Riwayat Kunjungan</a></li>
-                <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Riwayat Pelatihan</a></li>
+                 <li><a href="input_riwayat_kunjungan.php"><i class="fa fa-circle-o"></i>Riwayat Kunjungan</a></li>
+                <li><a href="input_riwayat_pelatihan.php"><i class="fa fa-circle-o"></i> Riwayat Pelatihan</a></li>
+              
               </ul>
             </li>
             

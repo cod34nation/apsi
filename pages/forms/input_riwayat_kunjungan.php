@@ -387,7 +387,7 @@
               <div class="kotak">
               <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Form Input Absen</h3>
+                  <h3 class="box-title">Form Input Riwayat Kunjungan</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
                 <form role="form">
@@ -398,42 +398,35 @@
                     </div>
                     
                      <div class="form-group">
-                      <label>Status</label>
-                      <select class="form-control">
-                        <option>---</option>
-                        <option>Hadir</option>
-                        <option>Sakit</option>
-                        <option>Izin</option>
-                        <option>Alpa</option>
-                      
-                       
-                        
-                      </select>
-                      <br>
-                  
+                      <label>Tanggal Selesai Kunjungan</label>
+                    <div class="input-group">
+                     
+                      <div class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                      </div>
+                      <input type="text" class="form-control" data-inputmask="'alias': 'mm/dd/yyyy'" data-mask name="tanggal">
+                    </div>
+                    
+                     
+                     <div class="form-group">
+                      <label>Wilayah :</label>
+                      <input type="text" class="form-control" placeholder="Enter ..." name="wilayah">
+                    </div>
+                    
+                   
+                     <div class="form-group">
+                      <label>Keterangan Kunjungan :</label>
+                      <input type="text" class="form-control" placeholder="Enter ..." name="keterangan">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Lama Kunjungan :</label>
+                      <input type="text" class="form-control" placeholder="Enter ..." name="lama">
                     </div>
                     
                     
-                     
-                    
-                   <div class="form-group">
-                      <label>Tanggal Absensi</label>
-                      
-                      <br>
-                      <span class="label label-success"><?php echo date("l,d M y"); ?></span>
-                     
-                   
-                     </div><!-- /.input group -->
-                     
-                      <div class="form-group">
-                      <label>Waktu</label>
-                      
-                      
-                      <br>
-                      <span class="label label-success"> <?php echo date("h:i:s A"); ?></span>
                     
                    
-                     </div>
                  
                   
                   
@@ -479,6 +472,10 @@
                     </div>
                     </div>
                   </div><!-- /.box-body -->
+                  
+                        
+                  
+                  </div>
 
                   <div class="box-footer">
                     <button type="submit" class="btn btn-primary">Submit</button>
