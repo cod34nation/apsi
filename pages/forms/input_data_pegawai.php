@@ -386,7 +386,7 @@
               <div class="kotak">
               <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Form Input Pegawai</h3>
+                  <h3 class="box-title">Form Input Pegawai PT AFF</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
                 <form role="form">
