@@ -389,7 +389,7 @@
                   <h3 class="box-title">Form Input Pegawai PT AFF</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
-                <form role="form">
+                <form action="proses_input_pegawai.php" method="post" role="form">
                   <div class="box-body">
                      <div class="form-group">
                       <label>NIP :</label>
@@ -405,6 +405,20 @@
                       <label>Tempat Lahir :</label>
                       <input type="text" class="form-control" placeholder="Enter ..."name="tempat_lahir">
                     </div>
+                    <label> Jenis Kelamin</label>  
+                    
+                  
+                  <div class="form-group">
+                    <label>
+                      L
+                      <input name="sex" class="minimal" checked="" type="radio" value="L">
+                    </label>
+                    <label>
+                      P
+                      <input name="sex" class="minimal" type="radio" value="P">
+                    </label>
+                    
+                  </div>
                     
                    <div class="form-group">
                       <label>Tanggal Lahir</label>
@@ -434,47 +448,27 @@
                     
                        <div class="form-group">
                       <label>Kabupaten/Kota :</label>
-                      <input type="text" class="form-control" placeholder="Kab/Kota Anda">
+                      <input type="text" class="form-control" placeholder="Kab/Kota Anda" name="kab">
                     </div>
                     
                       <div class="form-group">
                     <label>Agama :</label>
-                    <select class="form-control select2" style="width: 100%;" data-placeholder=" Pilih Agama ">
+                    <select class="form-control select2" style="width: 100%;" data-placeholder=" Pilih Agama " name="agama">
                      <option>----</option>
-                      <option>Islam</option>
-                      <option>Kristen</option>
-                      <option>Katholik</option>
-                      <option>Budha</option>
-                      <option>Hidhu</option>
+                      <option value="ISLAM">Islam</option>
+                      <option value ="KRISTEM">Kristen</option>
+                      <option value="KATOLIK">Katholik</option>
+                      <option value ="BUDHA">Budha</option>
+                      <option value ="HINDU">Hidhu</option>
                     </select>
                   </div>
                     <div class="form-group">
                     <label>Status Nikah</label>
-                    <select class="form-control select2" style="width: 100%;" data-placeholder="Pilih Status">
+                    <select class="form-control select2" style="width: 100%;" data-placeholder="Pilih Status" name="status">
                     
                       <option>----</option>
-                      <option>Nikah</option>
-                      <option>Belum Nikah</option>
-                      
-                    </select>
-                  </div>
-                  
-                  <div class="form-group">
-                    <label>Pangkat Pegawai</label>
-                    <select class="form-control select2" style="width: 100%;" data-placeholder="Pilih Pangkat">
-                    
-                      <option>----</option>
-                      <option></option>
-                      
-                    </select>
-                  </div>
-                  
-                  <div class="form-group">
-                    <label>Jabatan</label>
-                    <select class="form-control select2" style="width: 100%;" data-placeholder="Pilih Pangkat">
-                    
-                      <option>-----</option>
-                      <option></option>
+                      <option value="NIKAH">Nikah</option>
+                      <option value ="BELUM NIKAH">Belum Nikah</option>
                       
                     </select>
                   </div>
@@ -486,7 +480,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-phone"></i>
                       </div>
-                      <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [99]', '+099 99 99 9999[9]-9999']" data-mask>
+                      <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [99]', '+099 99 99 9999[9]-9999']" data-mask name="telp">
                     </div><!-- /.input group -->
                   </div><!-- /.fo
                   

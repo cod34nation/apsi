@@ -4,11 +4,10 @@ $username="root";
 $password="";
 $db="apsi";
 
-$konkesi= mysqli_connect($server,$username,$password,$db);
-
-if($konkesi)
+$koneksi = new mysqli($server, $username, $password, $db);
+if($koneksi)
 {
-    echo"Sukses";
+    //echo"Sukses";
 }
 else{
    echo " ".mysql_error();
