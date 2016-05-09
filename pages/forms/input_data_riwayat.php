@@ -391,7 +391,7 @@
                   <h3 class="box-title">Form Input Riwayat Pendidikan Terakhir</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
-                <form role="form">
+                <form role="form" action ="proses_input_pendidikan.php" method="post"  enctype="multipart/form-data" >
                   <div class="box-body">
                      <div class="form-group">
                       <label>NIP :</label>
@@ -400,27 +400,33 @@
                     
                      <div class="form-group">
                       <label>Jenjang Terkahir </label>
-                      <select class="form-control">
+                      <select class="form-control" name ="jenjang">
                         <option>---</option>
-                        <option>SMA/SMK</option>
-                        <option>D1</option>
-                        <option>D2</option>
-                        <option>D3</option>
-                        <option> S1</option>
-                        <option>S2</option>
-                        <option>S3</option>
+                        <option value ="SMA">SMA</option>
+                        <option value ="SMK">SMK</option>
+                        <option value = "D1">D1</option>
+                        <option value = "D2">D2</option>
+                        <option value = "D3">D3</option>
+                        <option value = "S1"> S1</option>
+                        <option value = "S2">S2</option>
+                        <option value = "S3">S3</option>
                         
                       </select>
                     </div>
                      <div class="form-group">
                       <label>Nama Instutisi Pendidikan :</label>
-                      <input type="text" class="form-control" placeholder="Enter ..."name="tempat_lahir">
+                      <input type="text" class="form-control" placeholder="Enter ..." name="nama">
+                    </div>
+                    
+                     <div class="form-group">
+                      <label>Spesialis/Jurusan :</label>
+                      <input type="text" class="form-control" placeholder="Enter ..." name="jurusan">
                     </div>
                     
                     
                      <div class="form-group">
                       <label for="exampleInputFile">File input</label>
-                      <input type="file" id="exampleInputFile">
+                      <input type="file" id="exampleInputFile" name ="foto" accept="image/*">
                       <p class="help-block">Foto Ijazah</p>
                     </div>
                     
